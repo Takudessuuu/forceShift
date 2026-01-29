@@ -1,9 +1,10 @@
-# force-shift-figura
+# forceShift - FiguraMOD
 
-A minimal pose correction script for Minecraft Figura avatars.
+MinecraftのFiguraMODで使うスクリプト
 
-## Description
-This script automatically applies a fixed pose to your avatar when crouching (Shift) and resets it when standing up. Includes a height correction fix for standard Minecraft crouch drop.
+## 説明
+このスクリプトは、しゃがんだ状態の時のアバターのズレなどを自動的に修正するのを目的として作られたスクリプト。
+アニメーションなどのものには一切干渉せず、邪魔なズレだけをなくすことができる。
 
 ## Usage
 1. Require the script in your main `script.lua`:
