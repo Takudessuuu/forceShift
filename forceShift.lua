@@ -7,9 +7,11 @@
 -- 
 -- forceShift: 指定されたポーズを適用する最小構成
 -- 
-
+-- スクリプト内に置くやつ
 -- local forceShift = require("forceShift")
 
+-- スクリプト内に置くやつ
+-- 制御しなくていい部位は除外しても動きます
 -- forceShift({
 --   modelPaths = {
 --     root     = function() return models.model.root end,
