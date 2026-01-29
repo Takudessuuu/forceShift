@@ -22,4 +22,5 @@ MinecraftのFiguraMODで使うスクリプト
    ```
 
 ## License
-MIT License - See [LICENSE](LICENSE) for details.
+Copyright (c) 2026 Takudesu - All Rights Reserved.
+詳細は [LICENSE](LICENSE) ファイルを確認してください。
