@@ -5,13 +5,11 @@
 -- ============================================================================
 
 -- 
--- forceShift: 指定されたポーズを適用する最小構成
+-- forceShift: Shift時のモデルズレを修正するやつ
 -- 
--- スクリプト内に置くやつ
+
 -- local forceShift = require("forceShift")
 
--- スクリプト内に置くやつ
--- 制御しなくていい部位は除外しても動きます
 -- forceShift({
 --   modelPaths = {
 --     root     = function() return models.model.root end,
@@ -93,6 +91,7 @@ end
 
 function events.RENDER(delta, context)
     if not player:isLoaded() then return end
+    if context ~= "RENDER" and context ~= "FIRST_PERSON" and context ~= "OTHER" then return end
 
     local crouching = player:isCrouching()
     local p = config.pose
