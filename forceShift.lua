@@ -40,8 +40,8 @@ local config = {
             body     = vec(28.648, 0, 0),
             leftArm  = vec(20.716, 0, 0),
             rightArm = vec(25.120, 0, 0),
-            leftLeg  = vec(0, 15.286, 0),
-            rightLeg = vec(0, -15.286, 0),
+            leftLeg  = vec(0, 0, 0),
+            rightLeg = vec(0, 0, 0),
         },
         position = {
             head     = vec(0, 4.200, 0),
